@@ -1,23 +1,47 @@
-# README
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Re-Former
 
-Things you may want to cover:
+Simple rails form. 
 
-* Ruby version
+![code3](https://user-images.githubusercontent.com/48393059/81570532-631fb580-93a9-11ea-8089-adaf64aaa721.png)
 
-* System dependencies
+# Build with
 
-* Configuration
+- Ruby
+- Rails
+- sqlite3
+- VS Code
 
-* Database creation
+# Get Started
 
-* Database initialization
+- You first need to clone the repository
+- install the dependencies (gems) by running `bundle install` in your terminal
+- Run `db:migrate`
+- Run `rails s` to start the rails server
+- Visit [http://localhost:3000](http://localhost:3000) in your browser to see and interact with the form.
 
-* How to run the test suite
+👤 Mbabali Iryn
 
-* Services (job queues, cache servers, search engines, etc.)
+- Github: [@mbabaliiryn](https://github.com/mbabaliiryn)
+- Twitter: [@irynmbabali](https://twitter.com/irynmbabali)
+- Linkedln: [mbabaliiryn](https://www.linkedin.com/in/mbabaliiryn)
 
-* Deployment instructions
 
-* ...
+👤 Patrick Nyatindo
+
+- Github: [@nyatindopatrick](https://github.com/nyatindopatrick)
+- Twitter: [@nyatindopatrick](https://twitter.com/nyatindopatrick)
+- Linkedln: [Patrick Nyatindo](https://www.linkedin.com/in/nyatindopateick)
+# 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the issues page.
+
+# Show your support
+
+Give a ⭐️ if you like this project!
+
+# Acknowledgments
+
+- Microverse
+- The Odin Project

@@ -1,0 +1,44 @@
+
+<%= form_for @user, local: true do |f| %>
+<p>
+<%= f.label :username, "User Name" %>
+<%= f.text_field :username %>
+</p>
+<p>
+<%= f.label :email, "Email" %>
+<%= f.text_field :email %>
+</p>
+<p>
+<%= f.label :password, "Password" %>
+<%= f.password_field :password %>
+</p>
+<p>
+<%= f.submit %>
+</p>
+<% end %>
+<!--
+<form  action='/users' method='POST' accept-charset="UTF-8" >
+    <label for="username">Username</label>
+    <input type='text' name='user[username]' placeholder='Your username'>
+
+    <label for="email">Email</label>
+    <input type='email' name='user[email]' placeholder='Your email'>
+
+    <label for="password">Password</label>
+    <input type='password' name='user[password]' >
+
+    <input type='hidden' name='authenticity_token' value="<% form_authenticity_token %>">
+    
+    <input type='submit' value='Save' > %>
+</form>  
+
+  
+<%= form_tag '/users'%>
+  <%= label_tag 'username' %>
+  <%= text_field_tag 'username', nil, placeholder: 'similar to David' %><br /><br />
+  <%= label_tag 'email' %>
+  <%= email_field_tag 'email', nil, placeholder: 'example@sm.com' %><br /><br />
+  <%= label_tag 'password' %>
+  <%= password_field_tag 'password' %><br /><br />
+  <%= submit_tag 'Create' %>
+-->
